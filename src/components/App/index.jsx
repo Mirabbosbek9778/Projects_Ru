@@ -1,9 +1,13 @@
-import Task from "../Task";
+import Body from "../Body";
+import Navbar from "../navbar";
 
 const App = () => {
-  return <div>
-    <Task/>
-  </div>;
+  return (
+    <div>
+      <Navbar />
+      <Body />
+    </div>
+  );
 };
 
 export default App;
